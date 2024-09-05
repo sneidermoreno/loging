@@ -1,0 +1,231 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los encabezados */
+h1 {
+    color: #007BFF;
+}
+
+/* Estilo para los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+/* Estilo general para el cuerpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e2f; /* Fondo oscuro */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2a2a3d; /* Fondo de las tarjetas */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para profundidad */
+    border: 2px solid #ff6600; /* Borde de color vibrante */
+}
+
+/* Estilo para los encabezados */
+h1, h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #ff6600; /* Color de texto vibrante */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Estilo para las secciones motivacionales */
+.motivational-content {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #2f2f3f; /* Fondo de sección */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #444; /* Borde ligero */
+}
+
+/* Bloques de cita */
+blockquote {
+    font-style: italic;
+    color: #ffffff;
+    padding: 15px 20px;
+    background-color: #3a3a4f;
+    border-left: 5px solid #ff6600; /* Color de acento para las citas */
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+blockquote footer {
+    text-align: right;
+    font-size: 1.2em;
+    color: #cccccc;
+}
+
+
+/* Listas de consejos */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ff6600;
+    color: #1e1e2f;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+/* Botones de estilo futurista */
+.logout-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #ff6600;
+    color: #1e1e2f;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #e55d00;
+}
+
+
+
+
+
+
+/* Estilos para la imagen motivacional */
+.motivational-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transiciones para el hover */
+}
+
+/* Efecto al pasar el mouse sobre la imagen */
+.motivational-image img:hover {
+    transform: scale(1.05); /* Agrandar la imagen ligeramente */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* Sombras más profundas al pasar el mouse */
+}
+
+
+
+
+/* Estilo para el enlace de compartir */
+.share-link {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.share-link a {
+    color: #ff6600;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Estilo para los botones de redes sociales */
+.social-share {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.social-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.social-button.facebook {
+    background-color: #3b5998;
+}
+
+.social-button.facebook:hover {
+    background-color: #2d4373;
+}
+
+.social-button.twitter {
+    background-color: #1da1f2;
+}
+
+.social-button.twitter:hover {
+    background-color: #1a91da;
+}
+
+.social-button.whatsapp {
+    background-color: #25d366;
+}
+
+.social-button.whatsapp:hover {
+    background-color: #1b9a4e;
+}
